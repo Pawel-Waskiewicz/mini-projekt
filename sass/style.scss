@@ -7,11 +7,17 @@ $color-three: #ffffff;
 $color-background: #dfe4ea;
 
 /* global */
+body {
+    font-family: $font-text;
+    font-size: 16px;
+    line-height: 1.7;
+}
 .container {
     padding: 0 20px;
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* Navigation */
 
 .navbar {
@@ -19,6 +25,10 @@ $color-background: #dfe4ea;
     padding-bottom: 12px;
     a {
         text-decoration: none;
-        
+    
+    }
+    span {
+        color: $color-two;
+        margin-left: 100px;
     }
 }
