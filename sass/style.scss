@@ -1,5 +1,5 @@
 /* Variables */
-$font-header: 'Roboto', sans-serif;
+$font-header: 'Roboto Slab', serif;
 $font-text: 'Playfair Display', serif;
 $color-one: #1e272e;
 $color-two: #ffd32a;
@@ -16,6 +16,10 @@ body {
     padding: 0 20px;
     max-width: 1140px;
     margin: 0 auto;
+}
+section {
+    padding: 96px 100px 96px 100px;
+
 }
 
 /* Navigation */
@@ -65,4 +69,30 @@ body {
         text-decoration: none;
         font-size: 20px;
     }
+}
+/* Services */
+.services {
+    text-align: center;
+    h4 {
+        font-family:$font-header;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 0;
+    }
+    i {
+        font-size: 40px;
+        color: $color-two;
+    }
+}
+.section-title{
+    text-align: center;
+    h1 {
+        margin-bottom: 0;
+        font-family: $font-header;
+        font-weight: bold;
+    }
+}
+.service-type{
+    padding-top: 60px;
 }
