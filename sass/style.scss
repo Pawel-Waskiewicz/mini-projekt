@@ -20,36 +20,46 @@ body {
 
 /* Navigation */
 .navbar {
-    padding-top: 12px;
+    padding-top: 32px;
     padding-bottom: 12px;
     a {
         text-decoration: none;
-    
+        color: $color-three;
     }
     span {
         color: $color-two;
         margin-left: 100px;
+        font-size: 20px;
     }
 }
 /* Header */
+.background-image {
+    background-image: url('https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+}
 .splash {
     display: flex;
+    height: 100vh;
 }
 .splash-inner {
+    color: $color-three;
     text-align: center;
     margin: 0 auto;
     padding-top: 90px;
     h1 {
-        font-size: 60px;
+        font-size: 70px;
         font-family: $font-header;
+        margin-top: 0;
     }
     h3 {
-        font-size: 25px;
+        font-size: 45px;
+        margin-bottom: 0;
+        margin-top: 70px;
     }
     .btn {
         padding: 20px 50px 20px 50px;
         border-style: solid;
         border-radius: 5px;
+        border-color: $color-two;
         background-color: $color-two;
         color: $color-three;
         text-decoration: none;
