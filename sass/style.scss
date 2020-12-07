@@ -19,7 +19,6 @@ body {
 }
 
 /* Navigation */
-
 .navbar {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -30,5 +29,30 @@ body {
     span {
         color: $color-two;
         margin-left: 100px;
+    }
+}
+/* Header */
+.splash {
+    display: flex;
+}
+.splash-inner {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 90px;
+    h1 {
+        font-size: 60px;
+        font-family: $font-header;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    .btn {
+        padding: 20px 50px 20px 50px;
+        border-style: solid;
+        border-radius: 5px;
+        background-color: $color-two;
+        color: $color-three;
+        text-decoration: none;
+        font-size: 20px;
     }
 }

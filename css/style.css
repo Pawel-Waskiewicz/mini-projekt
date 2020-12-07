@@ -27,4 +27,34 @@ body {
   margin-left: 100px;
 }
 
+/* Header */
+.splash {
+  display: flex;
+}
+
+.splash-inner {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.splash-inner h1 {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.splash-inner h3 {
+  font-size: 25px;
+}
+
+.splash-inner .btn {
+  padding: 20px 50px 20px 50px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #ffd32a;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
