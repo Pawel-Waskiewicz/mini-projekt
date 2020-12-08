@@ -40,7 +40,7 @@ section {
 
 .splash {
   display: flex;
-  height: 100vh;
+  height: 80vh;
 }
 
 .splash-inner {
@@ -147,6 +147,41 @@ section {
 
 .portfolio .card-body {
   padding: 20px;
+}
+
+/* Footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 100px;
+}
+
+footer i {
+  font-size: 20px;
+  color: #ffffff;
+  background: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+@media (max-width: 665px) {
+  section {
+    padding: 0;
+  }
+  .splash {
+    height: 50vh;
+  }
+  .splash-inner {
+    padding-top: 0;
+  }
+  .splash-inner h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .splash-inner h3 {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
