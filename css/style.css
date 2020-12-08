@@ -107,8 +107,18 @@ section {
 }
 
 /* Portfolio */
-img {
-  width: 80%;
+.portfolio {
+  background: #dfe4ea;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.portfolio article {
+  background: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
