@@ -109,6 +109,26 @@ section {
 /* Portfolio */
 .portfolio {
   background: #dfe4ea;
+  text-align: center;
+}
+
+.portfolio .title-section {
+  padding-bottom: 40px;
+}
+
+.portfolio h1 {
+  margin-bottom: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.portfolio h4 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.portfolio p {
+  margin-top: 0;
 }
 
 .portfolio img {
@@ -119,6 +139,14 @@ section {
 
 .portfolio article {
   background: #ffffff;
+}
+
+.portfolio .whole-card {
+  padding: 20px;
+}
+
+.portfolio .card-body {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
